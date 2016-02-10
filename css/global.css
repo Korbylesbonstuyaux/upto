@@ -1,0 +1,150 @@
+/*
+UPTO COLORS:
+
+MAGENTA: #ED1651    237 22 81
+BLEU: #009A9A    0 154 154
+ROSE: #EB0081    235 0 129
+ORANGE: #F59200    245 146 0
+
+AD
+VERT: #009E93    0 158 147
+FUSHIA: #D8107D    216 16 125
+
+*/
+
+@font-face {
+font-family: 'DIN-Regular';
+font-style: normal;
+font-weight: normal;
+src: local('DIN-Regular'), url('fonts/DINR____.woff') format('woff');
+}
+
+body {
+  padding: 0 !important;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.jumbotron {
+  margin: 0;
+}
+
+/* ==== HEADER ==== */
+
+/* nav */
+
+nav {
+  margin: 0 !important;
+  border-radius: 0 !important;
+  /*background-color: yellow;*/
+  min-height: 99px !important;
+  background-color: white !important;
+}
+
+.navbar {
+  /*border: 0;*/
+}
+
+.navbar-header {
+  min-height: 100px !important;
+}
+
+.navbar-toggle {
+  height: 50px;
+  width: 50px;
+  margin-top: 25px;
+  text-align: center !important;
+  border: 1px solid #ED1651 !important;
+}
+
+.navbar-toggle span {
+  background-color: #ED1651 !important;
+  width: 100% !important;
+}
+
+.navbar-nav li a {
+  width: 150px;
+  height: 100px;
+  line-height: 100px;
+  color: #009A9A  !important;
+  text-align: center;
+  padding: 0px;
+}
+
+.navbar-nav li:hover, .navbar-nav li:hover a, .navbar-nav li.active a {
+  background-color: #009A9A !important;
+  color: white !important;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin-left: 0 !important;
+}
+
+/*nav button {
+  margin: 0;
+  background-color: white !important;
+  border-radius: 50px !important;
+  border: 4px solid #ED1651 !important;
+  position: relative;
+}*/
+
+
+
+header img {
+  height: 100px;
+  width: auto;
+  display: inline-block !important;
+}
+
+/* end nav */
+
+/* ==== END HEADER ==== */
+
+
+/* ==== FOOTER ==== */
+
+footer {
+  min-height: 100px;
+  text-align: center;
+  background-color: #009A9A;
+}
+
+/* ==== END FOOTER ==== */
+
+/* ==== BACK TO TOP ==== */
+
+#back-to-top {
+  position: fixed;
+  right: 30px;
+  top: 90%;
+  z-index: 9999;
+
+  height: 30px !important;
+  width: 30px !important;
+  background: url(../images/logo/bird-upto.jpg) no-repeat center center !important;
+  background-size: 100% 100% ! important;
+  border-radius: 50% !important;
+  border: 1px solid #EB0081;
+}
+
+#back-to-top .my-icons
+{
+  text-align: center;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+#back-to-top button, #back-to-top button:hover, #back-to-top button:active {
+  height: 100% !important;
+  width: 100% !important;
+  background-color: transparent !important;
+
+  outline: none !important;
+  border: none !important;
+}
+
+/* ==== END BACK TO TOP ==== */

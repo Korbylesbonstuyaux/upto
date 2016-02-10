@@ -1,0 +1,185 @@
+/*
+UPTO COLORS:
+
+MAGENTA: #ED1651    237 22 81
+BLEU: #009A9A    0 154 154
+ROSE: #EB0081    235 0 129
+ORANGE: #F59200    245 146 0
+
+AD
+VERT: #009E93    0 158 147
+FUSHIA: #D8107D    216 16 125
+
+*/
+
+/* ==== CAROUSEL ==== */
+
+#events {
+  margin-top: 100px;
+  height: auto;
+  /*min-height: 500px;*/
+  background: rgba(0, 158, 147, 0.9);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+#events h1 {
+  /*color: black;*/
+  color: #009A9A;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+#events p {
+  /*color: black;*/
+  text-shadow: 1px 1px black; /*, 0 1px black, 1px 0 black, 0 0px black;*/
+}
+
+#carousel {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  /*height: 300px;*/
+  background-color: red;
+  margin: auto;
+}
+
+#carousel img {
+  width: 100%;
+  height: 55%;
+  /*width: 900px;
+  height: 500px;
+  margin: auto;*/
+}
+
+
+
+/* ==== END CAROUSEL ==== */
+
+/* ==== PRESENTATION ==== */
+
+#presentation {
+  height: auto;
+  min-height: 500px;
+  background: white;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+#presentation h1 {
+  /*color: black;*/
+  color: #009A9A;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+#presentation p {
+  /*color: black;*/
+  text-shadow: 1px 1px black; /*, 0 1px black, 1px 0 black, 0 0px black;*/
+}
+
+/* ==== END PRESENTATION ==== */
+
+/* ==== NEWS ==== */
+
+#news {
+  height: auto;
+  min-height: 500px;
+  background: rgba(0, 158, 147, 0.9);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+#news h1 {
+  /*color: black;*/
+  color: white;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+#news p {
+  /*color: black;*/
+  text-shadow: 1px 1px black; /*, 0 1px black, 1px 0 black, 0 0px black;*/
+}
+
+/* ==== END NEWS ==== */
+
+/* ==== TRAINING ==== */
+
+#training {
+  height: auto;
+  min-height: 500px;
+  background: white;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+#training h1 {
+  /*color: black;*/
+  color: #009A9A;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+#training p {
+  color: black;
+  font-family: 'DIN-Regular';
+  /*rgba(216, 16, 125, 0.8);*/
+  /*text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);*/
+}
+
+/* ==== END TRAINING ==== */
+
+/* ==== PARTNERS ==== */
+
+#partners {
+  height: auto;
+  min-height: 500px;
+  background: rgba(0, 158, 147, 0.9);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+#partners h1 {
+  /*color: black;*/
+  color: white;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+#partners p {
+  /*color: black;*/
+  text-shadow: 1px 1px black; /*, 0 1px black, 1px 0 black, 0 0px black;*/
+}
+
+/* ==== END PARTNERS ==== */
+
+/* ==== CONTACT ==== */
+
+#contact {
+  height: auto;
+  min-height: 500px;
+  background: white;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+#contact h1 {
+  /*color: black;*/
+  color: #009A9A;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+#contact p {
+  /*color: black;*/
+  text-shadow: 1px 1px black; /*, 0 1px black, 1px 0 black, 0 0px black;*/
+}
+
+/* ==== END CONTACT ==== */
