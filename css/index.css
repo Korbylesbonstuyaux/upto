@@ -140,6 +140,7 @@ FUSHIA: #D8107D    216 16 125
 
 .header-news {
   height: 100px;
+  line-height: 100px;
 }
 
 .body-news {
@@ -171,12 +172,20 @@ FUSHIA: #D8107D    216 16 125
 .logo-news img {
   width: 50px;
   height: auto;
+  display: inline-block;
 }
 
 .content-news .title-news {
   display: inline-block;
   width: 74%;
+  text-align: center;
   vertical-align: middle;
+}
+
+.logo-news {
+  vertical-align: bottom !important;
+  height: 100px;
+  line-height: 100px;
 }
 
 .content-news p {
@@ -188,7 +197,7 @@ FUSHIA: #D8107D    216 16 125
 }
 
 #news h2 {
-  text-align: left;
+  text-align: center;
 }
 
 #news .glyphicon.glyphicon-calendar {
