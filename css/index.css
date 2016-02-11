@@ -88,8 +88,30 @@ FUSHIA: #D8107D    216 16 125
 }
 
 #presentation p {
+  color: black;
   /*color: black;*/
-  text-shadow: 1px 1px black; /*, 0 1px black, 1px 0 black, 0 0px black;*/
+  /*text-shadow: 1px 1px black;*/
+}
+
+#presentation .infos {
+  margin-top: 25px;
+}
+
+#presentation .infos div {
+  text-align: left !important;
+}
+
+#presentation h2 {
+  color: #D8107D;
+  margin-bottom: 25px;
+}
+
+#presentation .infos div:last-child {
+  border-left: 1px solid black;
+}
+
+#presentation .glyphicon.glyphicon-arrow-right {
+  color: #D8107D;
 }
 
 /* ==== END PRESENTATION ==== */
@@ -112,9 +134,71 @@ FUSHIA: #D8107D    216 16 125
   font-weight: bolder;
 }
 
-#news p {
-  /*color: black;*/
-  text-shadow: 1px 1px black; /*, 0 1px black, 1px 0 black, 0 0px black;*/
+#subtitle-news {
+  margin-bottom: 25px;
+}
+
+.header-news {
+  height: 100px;
+}
+
+.body-news {
+  height: 420px;
+}
+
+.date-news {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.date-news p {
+  text-align: center !important;
+  width: 100%;
+}
+
+.content-news {
+  width: 74%;
+  display: inline-block;
+}
+
+.content-news .logo-news {
+  display: inline-block;
+  width: 24%;
+}
+
+.logo-news img {
+  width: 50px;
+  height: auto;
+}
+
+.content-news .title-news {
+  display: inline-block;
+  width: 74%;
+  vertical-align: middle;
+}
+
+.content-news p {
+  margin-top: 10px;
+}
+
+.content-news p, .date-news p {
+  text-align: left;
+}
+
+#news h2 {
+  text-align: left;
+}
+
+#news .glyphicon.glyphicon-calendar {
+  font-size: 3em;
+  vertical-align: top;
+}
+
+#news2 {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
 /* ==== END NEWS ==== */
@@ -195,3 +279,18 @@ FUSHIA: #D8107D    216 16 125
 }
 
 /* ==== END CONTACT ==== */
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  #presentation .infos div:last-child {
+    border-left: none;
+  }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

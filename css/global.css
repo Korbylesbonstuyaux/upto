@@ -21,6 +21,7 @@ src: local('DIN-Regular'), url('fonts/DINR____.woff') format('woff');
 
 body {
   padding: 0 !important;
+  font-family: 'DIN-Regular';
 }
 
 h1 {
