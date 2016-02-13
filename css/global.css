@@ -110,7 +110,29 @@ header img {
 footer {
   min-height: 100px;
   text-align: center;
-  background-color: #009A9A;
+  background-color: #009A9A !important;
+  color: white !important;
+}
+
+footer .fa-circle {
+  color: white;
+}
+
+footer .social-network {
+  /*margin-top: 50px;*/
+}
+
+
+footer .credit span, footer .copyright span {
+  text-transform: uppercase !important;
+}
+
+footer .fa-stack span:last-child {
+  color: #009A9A;
+}
+
+footer a:hover {
+  text-decoration: none;
 }
 
 /* ==== END FOOTER ==== */

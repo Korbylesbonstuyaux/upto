@@ -114,6 +114,14 @@ FUSHIA: #D8107D    216 16 125
   color: #D8107D;
 }
 
+#presentation button {
+  color: #D8107D;
+  height: 50px;
+  font-size: 1.5em;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 /* ==== END PRESENTATION ==== */
 
 /* ==== NEWS ==== */
@@ -135,7 +143,11 @@ FUSHIA: #D8107D    216 16 125
 }
 
 #subtitle-news {
-  margin-bottom: 25px;
+
+}
+
+.new {
+  margin-top: 25px;
 }
 
 .header-news {
@@ -200,7 +212,7 @@ FUSHIA: #D8107D    216 16 125
   text-align: center;
 }
 
-#news .glyphicon.glyphicon-calendar {
+#news .glyphicon-calendar {
   font-size: 3em;
   vertical-align: top;
 }
@@ -208,6 +220,18 @@ FUSHIA: #D8107D    216 16 125
 #news2 {
   border-left: 1px solid white;
   border-right: 1px solid white;
+}
+
+#news button {
+  color: rgba(0, 158, 147, 0.9);
+  height: 50px;
+  font-size: 1.5em;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#news .glyphicon-triangle-right {
+
 }
 
 /* ==== END NEWS ==== */
@@ -271,7 +295,7 @@ FUSHIA: #D8107D    216 16 125
   min-height: 500px;
   background: white;
   background-size: cover;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -282,11 +306,32 @@ FUSHIA: #D8107D    216 16 125
   font-weight: bolder;
 }
 
-#contact p {
-  /*color: black;*/
-  text-shadow: 1px 1px black; /*, 0 1px black, 1px 0 black, 0 0px black;*/
+
+#contact h2 {
+  color: #D8107D;
 }
 
+#contact p {
+  /*color: black;*/
+  /*text-shadow: 1px 1px black; /*, 0 1px black, 1px 0 black, 0 0px black;*/*/
+}
+
+#contact form {
+  text-align: left;
+}
+
+#contact p, #contact form {
+  padding-top: 25px;
+}
+
+#contact textarea {
+  resize: none;
+}
+
+#contact button {
+  background-color: #D8107D;
+  color: white;
+}
 /* ==== END CONTACT ==== */
 
 /* RESPONSIVE */
@@ -296,10 +341,16 @@ FUSHIA: #D8107D    216 16 125
   }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
 
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
+  #news2 {
+    border: none;
+  }
 
+  .body-news {
+    height: auto;
+  }
 }
