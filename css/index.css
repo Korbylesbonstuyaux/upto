@@ -142,10 +142,6 @@ FUSHIA: #D8107D    216 16 125
   font-weight: bolder;
 }
 
-#subtitle-news {
-
-}
-
 .new {
   margin-top: 25px;
 }
@@ -243,7 +239,7 @@ FUSHIA: #D8107D    216 16 125
   min-height: 500px;
   background: white;
   background-size: cover;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -254,11 +250,71 @@ FUSHIA: #D8107D    216 16 125
   font-weight: bolder;
 }
 
-#training p {
-  color: black;
-  font-family: 'DIN-Regular';
-  /*rgba(216, 16, 125, 0.8);*/
-  /*text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);*/
+#training h2 {
+  color: #D8107D;
+  margin-bottom: 25px;
+}
+
+#training .goal {
+  margin-bottom: 25px;
+}
+
+#training .goals img {
+  width: 100px;
+  height: auto;
+}
+
+#training .goals hr {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 3px dotted #009A9A;
+}
+
+#training .logo-interest, .content-interest {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+#training .logo-interest {
+  width: 24%;
+}
+
+#training .content-interest {
+  width: 75%;
+  padding-left: 10px;
+}
+
+#training .interests img {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+#training .interest h3 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: blue;
+}
+
+#training .interest hr {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 3px dotted #009A9A;
+}
+
+#my-coverflow h2 {
+  margin-bottom: 0px !important;
+}
+
+#training button {
+  color: #D8107D;
+  height: 50px;
+  font-size: 1.5em;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 /* ==== END TRAINING ==== */
@@ -281,9 +337,19 @@ FUSHIA: #D8107D    216 16 125
   font-weight: bolder;
 }
 
-#partners p {
-  /*color: black;*/
-  text-shadow: 1px 1px black; /*, 0 1px black, 1px 0 black, 0 0px black;*/
+#partners img {
+  width: 100%;
+  height: auto;
+}
+
+#partners button {
+  color: rgba(0, 158, 147, 0.9);
+  height: 50px;
+  font-size: 1.5em;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  position: relative;
+  left: 2%;
 }
 
 /* ==== END PARTNERS ==== */

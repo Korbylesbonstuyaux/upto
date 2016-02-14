@@ -1,0 +1,38 @@
+body {
+  background-color: white;
+}
+
+.largeLabel {
+  color: #EB0081 !important;
+}
+
+.smallLabel {
+  visibility: hidden;
+}
+
+.mediaDescriptionHeader {
+  color: #EB0081 !important;
+}
+
+#coverflow-buttons {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+#coverflow-buttons button {
+  background-color: white;
+  color: #EB0081;
+  border: 1px solid #EB0081 !important;
+  width: 60px;
+  outline:none;
+}
+
+#coverflow-buttons button[name="show"] {
+  color: #EB0081;
+  border: 1px solid white !important;
+  width: 60px;
+  padding: 0;
+  height: 4px !important;
+  outline:none;
+}
