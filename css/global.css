@@ -13,15 +13,18 @@ FUSHIA: #D8107D    216 16 125
 */
 
 @font-face {
-font-family: 'DIN-Regular';
+font-family: 'din';
 font-style: normal;
 font-weight: normal;
-src: local('DIN-Regular'), url('fonts/DINR____.woff') format('woff');
+src: url('../fonts/din.woff') format('woff');
+
 }
+
+
 
 body {
   padding: 0 !important;
-  font-family: 'DIN-Regular';
+  font-family: 'din' !important;
 }
 
 h1 {
