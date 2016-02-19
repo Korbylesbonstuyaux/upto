@@ -138,7 +138,12 @@ footer .fa-stack span:last-child {
 footer a:hover {
   text-decoration: none;
 }
-
+.copyright a {
+  color:white;
+}
+.copyright a:hover {
+  font-weight: bolder;
+}
 /* ==== END FOOTER ==== */
 
 /* ==== BACK TO TOP ==== */
