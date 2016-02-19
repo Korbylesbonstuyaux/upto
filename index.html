@@ -461,6 +461,31 @@
 
     $('.partner .move-left.text').css('display', 'none');
 
+    $(window).resize(function() {
+        var width = parseInt($('#all-partners').width());
+        // Default 80%
+        var percent_width_move = 80;
+        // Default 20%
+        var percent_width_logo = 20;
+
+        if(width <= 600)
+        {
+          percent_width_move = 60;
+          percent_width_logo = 40;
+        }
+
+        // Width of .move-left & .move-right
+        var width_move = parseInt(width) * percent_width_move / 100;
+        $('.move-left').css('width', width_move+'px');
+        $('.move-right').css('width', width_move+'px');
+
+        // Width of partner .logo
+        var width_logo = parseInt(width) * percent_width_logo / 100;
+        $('.partner .logo').css('width', width_logo+'px');
+        var width_name = width_logo - 50;
+        $('.partner .name').css('width', width_name+'px');
+    });
+
     // Default width container 1140px
     $('.partner .logo').click(function()
     {
