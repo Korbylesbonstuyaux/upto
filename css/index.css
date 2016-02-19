@@ -310,7 +310,7 @@ FUSHIA: #D8107D    216 16 125
 
 #all-partners .move-left,  #all-partners .move-right {
   width: 912px;
-  background-color: red;
+  background-color: #ED1651;
   min-height: 100px;
 }
 
@@ -359,12 +359,16 @@ FUSHIA: #D8107D    216 16 125
 
 #all-partners .name {
   /* Default 228 (logo width) - 50 (arrow width)*/
-  width: 174px;
+  width: 178px;
   /* Default arrow heigth */
   height: 100px;
   line-height: 100px;
   text-align: center;
   background-color: #ED1651;
+}
+
+#all-partners .text {
+  text-align: center;
 }
 
 #partners img {
