@@ -338,13 +338,45 @@
           <div class="move-left hidden-bloc">
           </div><!--
        --><div class="logo" data-id="2">
-            <p>
-              Simplon
-            </p>
+           <div class="arrow-left">
+           </div><!--
+        --><div class="name">
+             Simplon
+           </div>
           </div><!--
        --><div class="move-right text">
            <p>
              Simplon est ...
+           </p>
+         </div>
+        </div>
+        <div id="partner3" class="partner">
+          <div class="move-left text">
+            <p>
+              FACE HERAULT est une entreprise,.....
+            </p>
+          </div><!--
+       --><div class="logo" data-id="3">
+           <div class="name">
+             Face Herault
+           </div><!--
+        --><div class="arrow-right">
+           </div>
+          </div>
+        </div>
+        <div id="partner4" class="partner">
+          <div class="move-left hidden-bloc">
+          </div><!--
+       --><div class="logo" data-id="4">
+           <div class="arrow-left">
+           </div><!--
+        --><div class="name">
+             Les Entreprises
+           </div>
+          </div><!--
+       --><div class="move-right text">
+           <p>
+             Les Entreprises sont ...
            </p>
          </div>
         </div>
@@ -458,6 +490,40 @@
     });
 
     $('.partner .move-left.text').css('display', 'none');
+
+    function resizePartners()
+    {
+      var width = parseInt($('#all-partners').width());
+      // Default 80%
+      var percent_width_move = 80;
+      // Default 20%
+      var percent_width_logo = 20;
+
+      if(width <= 600)
+      {
+        percent_width_move = 60;
+        percent_width_logo = 40;
+      }
+
+      // Width of .move-left & .move-right
+      var width_move = parseInt(width) * percent_width_move / 100;
+      $('.move-left').css('width', width_move+'px');
+      $('.move-right').css('width', width_move+'px');
+
+      // Width of partner .logo
+      var width_logo = parseInt(width) * percent_width_logo / 100;
+      $('.partner .logo').css('width', width_logo+'px');
+      var width_name = width_logo - 50;
+      $('.partner .name').css('width', width_name+'px');
+    }
+
+    $(document).ready(function() {
+      resizePartners();
+    });
+
+    $(window).resize(function() {
+      resizePartners();
+    });
 
     // Default width container 1140px
     $('.partner .logo').click(function()
