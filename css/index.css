@@ -304,7 +304,7 @@ FUSHIA: #D8107D    216 16 125
 #all-partners {
   width: 100%;
   height: 600px;
-  background-color: yellow;
+  /*background-color: yellow;*/
   overflow: hidden;
 }
 
@@ -324,6 +324,7 @@ FUSHIA: #D8107D    216 16 125
   width: 200%;
   overflow: hidden;
   min-height: 100px;
+  margin-top: 20px;
 }
 
 .partner div {
@@ -365,6 +366,7 @@ FUSHIA: #D8107D    216 16 125
   line-height: 100px;
   text-align: center;
   background-color: #ED1651;
+  text-transform: uppercase;
 }
 
 #all-partners .text {
