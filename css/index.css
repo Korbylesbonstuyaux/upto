@@ -300,10 +300,78 @@ FUSHIA: #D8107D    216 16 125
   margin-bottom: 50px;
   font-weight: bolder;
 }
+
+#all-partners {
+  width: 100%;
+  height: 600px;
+  background-color: yellow;
+  overflow: hidden;
+}
+
+#all-partners .move-left,  #all-partners .move-right {
+  width: 912px;
+  background-color: red;
+  min-height: 100px;
+}
+
+ #all-partners .logo {
+  width: 228px;
+  /*background-color: blue;*/
+}
+
+.partner {
+  text-align: left;
+  width: 200%;
+  overflow: hidden;
+  min-height: 100px;
+}
+
+.partner div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.hidden-bloc {
+  background-color: green !important;
+  opacity: 0;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid #ED1651;
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid #ED1651;
+}
+
+#all-partners .logo div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#all-partners .name {
+  /* Default 228 (logo width) - 50 (arrow width)*/
+  width: 174px;
+  /* Default arrow heigth */
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: #ED1651;
+}
+
 #partners img {
   width: 100%;
   height: auto;
 }
+
 #partners button {
   color: rgba(0, 158, 147, 0.9);
   height: 50px;
