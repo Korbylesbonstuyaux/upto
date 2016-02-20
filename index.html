@@ -323,7 +323,9 @@
         <div id="partner1" class="partner">
           <div class="move-left text">
             <p>
-              Dell est une entreprise,.....
+              Accueil de la classe une semaine par mois.<br>
+              Deux journées de formation par mois (produits et métiers, développement personnel, social médias...).<br>
+              Matériel informatique. Mentoring.
             </p>
           </div><!--
        --><div class="logo" data-id="1">
@@ -346,14 +348,18 @@
           </div><!--
        --><div class="move-right text">
            <p>
-             Simplon est ...
+             Fromateur technique.<br>
+             Formateur.<br>
+             Communauté Simplon.
            </p>
          </div>
         </div>
         <div id="partner3" class="partner">
           <div class="move-left text">
             <p>
-              FACE HERAULT est une entreprise,.....
+              Levée des fonds.<br>
+              Accompagnement emploi et social.<br>
+              Mobilisation du monde numérique.
             </p>
           </div><!--
        --><div class="logo" data-id="3">
@@ -371,19 +377,35 @@
            <div class="arrow-left">
            </div><!--
         --><div class="name">
-             Les Entreprises
+             Entreprises
            </div>
           </div><!--
        --><div class="move-right text">
            <p>
-             Les Entreprises sont ...
+             French Tech, Kaliop, Orange, EDF.<br>
+             Toutes les entreprises concernées par les métiers du numrique.
            </p>
          </div>
         </div>
+        <div id="partner5" class="partner">
+          <div class="move-left text">
+            <p>
+              Montpellier Méditerranée Métropole,<br>
+              La Direccte, Pôle Emploi.
+            </p>
+          </div><!--
+       --><div class="logo" data-id="5">
+           <div class="name">
+             Partenaires
+           </div><!--
+        --><div class="arrow-right">
+           </div>
+          </div>
+        </div>
       </div>
-      <div>
+      <!-- <div>
         <img src="images/partner/partenaires.png" alt="Partenaires de UP TO" />
-      </div>
+      </div> -->
       <div style="postion:relative;">
         <a href="#">
           <button class="btn" type="button" name="button">En savoir plus.
@@ -501,8 +523,8 @@
 
       if(width <= 600)
       {
-        percent_width_move = 60;
-        percent_width_logo = 40;
+        percent_width_move = 50;
+        percent_width_logo = 50;
       }
 
       // Width of .move-left & .move-right
@@ -513,7 +535,7 @@
       // Width of partner .logo
       var width_logo = parseInt(width) * percent_width_logo / 100;
       $('.partner .logo').css('width', width_logo+'px');
-      var width_name = width_logo - 50;
+      var width_name = width_logo - 75;
       $('.partner .name').css('width', width_name+'px');
     }
 

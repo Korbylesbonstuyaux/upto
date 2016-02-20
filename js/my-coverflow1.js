@@ -74,7 +74,7 @@ FWDS3DCovUtils.onReady(function()
     showSlideshowButton:"no",
     showScrollbar:"no",
     disableScrollbarOnMobile:"yes",
-    enableMouseWheelScroll:"yes",
+    enableMouseWheelScroll:"no",
     scrollbarHandlerWidth:200,
     scrollbarTextColorNormal:"#FFF",
     scrollbarTextColorSelected:"#FFFFFF",
