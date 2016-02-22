@@ -44,7 +44,7 @@ FUSHIA: #D8107D    216 16 125
   margin: auto;
 }
 #carousel img {
-  border: 3px solid white;
+  /*border: 3px solid white;*/
   width: 100%;
   height: 55%;
   /*width: 900px;
